@@ -56,7 +56,7 @@
         
         <div class="d-grid gap-2 col-6 mx-auto">
         <button type="submit" name="submit" class="btn btn-success">Update</button>
-        <a href="viewrecords.php" class="btn btn-info">Back to List</a>
+        <a href="viewrecords.php" class="btn btn-default">Back to List</a>
         </div>
     </form>
     <?php } ?>
