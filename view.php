@@ -31,7 +31,7 @@
         <p class="card-text">
             Email Address: <?php echo $result['emailaddress'];?> 
         </p>
-        p class="card-text">
+        <p class="card-text">
             Phone Number: <?php echo $result['contactnumber'];?> 
         </p>
     </div>

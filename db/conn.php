@@ -5,7 +5,7 @@
     $pass = '';
     $charset = 'utf8mb4';
 
-    $dsn = "mysql:host=$host; dbname=$db;chartset=$charset";
+    $dsn = "mysql:host=$host; dbname=$db; chartset=$charset";
 
     try {
         $pdo = new PDO($dsn, $user, $pass);
@@ -18,7 +18,7 @@
     require_once 'crud.php';
     require_once 'user.php';
     $crud = new crud($pdo);
-    $user = new user($pdo);
+    $user = new $user($pdo);
 
     $user->insertUser("admin","password");
 ?>
